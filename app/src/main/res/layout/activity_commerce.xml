@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".commerce"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t15"
+        android:layout_marginTop="20dp"
+        android:text="XIIth COMMERCE: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/b13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:id="@+id/b20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:text="1. C.A. Foundation (3 yrs)\n○ B.Com (2 yrs)\n-M.B.A.\n□ Specializations: Marketing, Finance, Materials, etc.\n□ Careers: Manager / Businessman\n\n2. B.B.A. (3 yrs)\n○ M.B.A.\n\n3. C.S. Foundation (3 yrs)\n○ I.C.W.A. (2 yrs)\n\n4. B.C.A. (with 12th in Maths, English) (3 yrs)\n○ M.C.M. (2 yrs)\n○ M.C.A. (3 yrs)\n§ Career: Software Job\n\n5. B.Arch. (5 yrs)\n\n6. D.Ed. (2 yrs)\n○ Career: Teacher\n\n7. Call Center\n○ Career: Call Center Executive"
+            android:textSize="20sp"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

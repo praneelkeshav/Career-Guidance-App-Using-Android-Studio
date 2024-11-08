@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD3F5293"
+    android:orientation="vertical"
+    android:layout_weight="0"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="DreamCareer"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#231C1C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="256dp"
+        android:layout_height="254dp"
+        android:src="@drawable/icon1"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="122dp"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:text="Click To Login"
+        android:textAllCaps="true"
+        android:textColor="#5A5757"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sunday"
+        android:text="UNLOCK YOUR POTENTIAL:Step Into a Brighter Future with DreamCareer"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="true"
+        android:textColor="#231C1C"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+</LinearLayout>

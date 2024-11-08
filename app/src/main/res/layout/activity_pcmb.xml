@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".pcmb"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t7"
+        android:layout_marginTop="20dp"
+        android:text="PCMB (Physics, Chemistry, Maths, Biology):"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:id="@+id/b18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="○B.Sc. in Dairy Technology (4 yrs.)\n •M.B.A. (2 yrs.)\n\n○Bachelor of Pharmacy (3 yrs.)\n •M.B.A.(2 yrs.)\n •Master in Pharmacy (2 yrs.)\n\n○B.Tech. In Agriculture (4 yrs.)\n • M.B.A. (2 yrs.)\n •M.Tech. In Agriculture (2 yrs.)\n\n○ B.Sc. Bio-Technology (4 yrs.)\n •M.B.A. (2 yrs.)\n •M.Sc. Bio-Technology (2 yrs.)\n\n○ B.Sc. in Agriculture (4 yrs.)\n •M.B.A. (2 yrs.)\n •M.Sc. Animal Husbandry Dairy Technology (2 yrs.)"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

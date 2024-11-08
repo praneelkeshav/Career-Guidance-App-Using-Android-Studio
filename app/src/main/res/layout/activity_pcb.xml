@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".pcb"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="With PCB (Physics, Chemistry, Biology):"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/b16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="• B.A.M.S. (4 And 1/2 yrs.)\n○ M.D.\n\n• B.H.M.S. (4 And 1/2 yrs.)\n\n• B.V.Sc. (5 yrs.)\n\n• M.B.B.S. (4 And 1/2 yrs.)\n○ M.D. (3 yrs.)\n○ M.S. (3 yrs.)\n○ Special Diploma (2 yrs.)\n\n• B.D.S. (4 yrs.)\n○ M.D.S. (2 yrs.)\n\n• Paramedical Courses (3-4 and 1/2 yrs.)\n\n• B.Sc. Nursing (3-4 yrs.)\n\n• B.M.L.T. (3 yrs.)\n\n• B.Sc. Home Science (3 yrs.)"
+
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

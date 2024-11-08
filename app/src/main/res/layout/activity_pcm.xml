@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".pcm"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t11"
+        android:layout_marginTop="20dp"
+        android:text="With PCM (Physics, Chemistry, Maths): "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:id="@+id/b17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="• N.D.A. (3 yrs.)\n○ Navy\n○ Army\n○ Airforce\n\n• Diploma in Interior / Landscape Designing (1 yr.)\n○ Job in Railway\n○ Job in Public Sector Company\n\n• B.Arch. (5 yrs.)\n○ Architect\n\n• Bachelor of Planning And Design (5 yrs.)\n○ I.E.S. Exam\n○ Merchant Navy\n○ Marine Engineer\n\n• Technical entry in Indian Army (3 yrs.)\n\n• M.E.\n○ Engineer\n○ Teacher\n○ (I.A.S. Officer)\n○ MPSC / UPSC Exam\n\n• B.E. (4 yrs.)\n○ Defence Direct Entry\n○ Indian Navy\n○ Airforce\n\n• B.Tech (Indian Institute of Technology) IIT (4 yrs.)\n○ M.B.A. (2 yrs.)\n○ M.Tech (Indian Institute of Technology) IIT (2 yrs.)\n\n• Government Contractor (Civil/Electrical)\n\n• M.S. (Foreign University) (2 yrs.)\n\n• Direct 2nd year Engineering Diploma (2 yrs.)\n\n• B.C.S. / B.C.A. / B.Sc. (Phy.) (3 yrs.)\n○ M.C.A. (3 yrs.)\n○ M.C.S. (2 yrs.)\n○ M.C.M.\n○ M.B.A.\n\n• Film And Television Diploma (FTII) (1-2 yrs.)\n○ Film Editing\n○ Cinematography\n○ Film Processing\n○ Job in film Production / TV Channels\n\n• Hotel Management Degree (3-4 yrs.)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

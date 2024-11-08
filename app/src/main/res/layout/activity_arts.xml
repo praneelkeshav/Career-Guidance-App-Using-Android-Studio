@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".arts"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t13"
+        android:layout_marginTop="20dp"
+        android:text="XIIth ARTS: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/b12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:id="@+id/b21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="1. D.Ed. (2 yrs.)\n ○ Career: Teacher\n\n2. B.S.W. Foundation (2 yrs.)\n ○ M.S.W. (2 yrs.)\n ○ D.T.L.\n ○ D.L.L.\n ○ L.L.M.\n\n3. L.L.B. (5 yrs.)\n ○ L.L.M.\n\n4. Fashion Designing Diploma (3 yrs.)\n\n5. Interior Designing Diploma (3 yrs.)\n\n6. B.B.A. (3 yrs.)\n ○ M.B.A.\n § Career: Manager / Businessman\n\n7. Foreign Languages Diploma (1 yr.)\n\n8. Call Center Job\n\n9. B.A. (3 yrs.)\n ○ L.L.B. (3 yrs.)\n § L.L.M. (2 yrs.)\n ○ M.A.\n ○ Bachelor of Journalism (1 yr.)\n ○ L.L.B. (3 yrs.)\n § L.L.M. (2 yrs.)\n ○ Bachelor of Library Science (1 yr.)\n § Career: Librarian\n ○ B.P.Ed. (1 yr.)\n § Career: P.T. Teacher\n ○ M.A. in Mass Communication\n ○ M.B.A.\n ○ M.P.S.C. / U.P.S.C. Exam\n § Career: IAS Officer\n ○ M.C.A. (3 yrs.)\n § Career: Software Job\n ○ B.Ed. (1 yr.)\n § M.Ed. (2 yrs.)\n □ Career: Teacher\n ○ Advertising And Commercial Management Diploma (2 yrs.)\n ○ Sub Inspector Exam for BSF / CRPF / CISF\n ○ Event Management Diploma\n ○ Diploma in Dramatization (NSD)\n § Career: Acting in Films / Plays\n\n10. B.Arch. (5 yrs.) - (12th with Maths, English)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

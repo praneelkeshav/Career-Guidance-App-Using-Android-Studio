@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".others"
+    android:background="#ACA4CC">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t17"
+        android:layout_marginTop="20dp"
+        android:text="XIIth ARTS: "
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"/>
+
+    <Button
+        android:id="@+id/b14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:id="@+id/b19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="○ Bank / Insurance Probationary / Development Officer Exam\n\n○ L.L.B. (2 yrs)\n • L.L.M. (2 yrs)\n\n○ C.A. (1 yr)\n\n○ B.Ed. (1 yr)\n • M.Ed. (2 yrs)\n\n○ Bachelor in Library Science (1 yr)\n • Career: Librarian\n\n○ Import Export Diploma (1 yr)\n\n○ Computer Courses (Tally)\n • M.P.S.C. / U.P.S.C. (Exam)\n • Career: Indian Military Academy\n\n○ I.C.W.A. (3 yrs)\n\n○ C.S. (3 yrs)\n\n○ Air Hostess\n • Career: Air Hostess\n\n○ (IAS / Class-1 Officer)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

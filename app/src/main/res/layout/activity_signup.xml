@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E69AD0D3"
+    tools:context=".signup"
+    tools:targetApi="s">
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60dp"
+        android:text="SIGN Up"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/system_accent3_900"
+        android:fontFamily="@font/lonely"
+        tools:targetApi="s"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_marginTop="120dp"
+        android:layout_width="360dp"
+        android:layout_height="147dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/students2"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/lonely"
+        android:hint="Username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et1"
+        android:fontFamily="@font/lonely"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et2"
+        android:fontFamily="@font/lonely"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et3"
+        android:fontFamily="@font/lonely"
+        android:hint="Phone Number"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et4"
+        android:fontFamily="@font/lonely"
+        android:hint="School Name"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et5"
+        android:fontFamily="@font/lonely"
+        android:hint="Marks Scored"
+        android:minHeight="48dp"
+        android:textColor="@android:color/system_accent3_900" />
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_below="@id/et6"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:entries="@array/spinner"
+        android:textAlignment="gravity"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s1"
+        android:layout_marginTop="51dp"
+        android:background="#A2D2D9"
+        android:fontFamily="@font/lonely"
+        android:minHeight="48dp"
+        android:text="Sign Up"
+        android:textColor="#E11D1736"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>
+
+
+
+
+
